@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  /* Desafio 2 */
+  
+  /* .chat-container {
+    width: 100%;
+    background-color: darkslategrey;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .chat-container input{
+    width: 50%;
+  }
+  
+  
+  .chat-box-container {
+    width: 100%;
+    min-height: 100vh;
+    color: black;
+    padding: 5px;
+    background-color: #CCC;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 2em;
+  }  */
+  
+  
+  /* Desafio 3 */
+  
+  .chat-container {
+    width: 100%;
+    background-color: darkslategrey;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .chat-container button {
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border: 1.5px solid whitesmoke;
+    color: whitesmoke;
+    font-family: monospace;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.75s;
+  }
+  
+  .chat-container button:hover {
+    background-color: rgba(245, 245, 245, 0.5);
+    color: darkslategrey;
+    font-weight: 700;
+  }
+  
+  .chat-container input{
+    width: 50%;
+    background-color: rgba(245, 245, 245, 0.5);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.75s;
+    padding: 1px 5px;
+  }
+  
+  .chat-container input:focus{
+    background-color: whitesmoke;
+  }
+  
+  .chat-box-container {
+    width: 100%;
+    min-height: 100vh;
+    color: black;
+    padding: 5px;
+    background-color: #CCC;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 1em;
+  } 
